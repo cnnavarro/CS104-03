@@ -1,17 +1,16 @@
-Python 3.8.5 (v3.8.5:580fbb018f, Jul 20 2020, 12:11:27) 
-[Clang 6.0 (clang-600.0.57)] on darwin
-Type "help", "copyright", "credits" or "license()" for more information.
->>> numberOfScores = 0
+numberOfScores = 0
 score1 = 0
+score2 = 0
 total = 0
 average = 0.0
 scoreCount = 0
+#numberOfScores = int(input("Please enter the number of scores that you want to average: "))
 
-while scourcount < Numberoftest:
-	score = int(input("Please enter a score: "))
-	total += score
+#What python loop structure could we use to repeat the next 3 lines
+score = int(input("Please enter the score: "))
+total = total + score
+scoreCount = scoreCount + 1
 
-
-average = total / numberOfScores
-print(average)
-
+if scoreCount != numberOfScores:
+    average = total / numberOfScores
+    print(average)
