@@ -1,10 +1,8 @@
-#counting loop using while
-print ("counting loop using while")
-numberOfScores =20
 x = 1
 total = 0
-while x != 10:
+
+
+while x < 10 :
     total = total + x
     x = x + 1
-    print (total)
-    
+print (total) 
