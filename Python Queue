@@ -1,0 +1,9 @@
+names = ["Jim", "Bill","Abby","Jeff","Sam","Chris","Emily","Rob","Ryan","Eric"]
+for y in range(0,10):
+  Name = input("Enter a Name: ")
+  names.append(Name)
+  print(names)
+
+for y in range(0,10):
+  print(names.pop(0))
+  print(names)
